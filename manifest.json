@@ -1,0 +1,27 @@
+{
+    "name": "MyColorPicker",
+    "version": "1.0.0",
+    "description": "pick any color",
+    "manifest_version": 3,
+    "background":
+    {
+        "service_worker":"background.js"
+    },
+    "permissions":[
+        "activeTab",
+        "scripting",
+        "tabs"
+    ],
+    "icons": 
+    {       "24": "color-picker 24.png",
+            "32": "color-picker-32.png",
+            "64": "color-picker 64.png"
+    },
+
+
+    "action":{
+        "default_popup": "popup.html",
+        "default_icon": "color-picker 24.png",
+        "default_title": "Pick the color"
+    }
+}

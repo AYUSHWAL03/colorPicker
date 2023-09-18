@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-shadow: none;
+}
+html{
+    font-size: 62.5%;
+}
+.picker_div h2{
+    font-size: 1.5rem;
+}
+
+.picker_div{
+    width: 30rem;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.picker_div button{
+    margin: 2rem ;
+    padding: 1rem 2rem;
+    background-color: #ecb651;
+}
+.colors{
+    display: flex;
+    background-color: antiquewhite;
+    height: 20px;
+    width: 100%;
+    gap: 10px;
+    font-size: 1.2rem;
+    padding: 5px 50px;
+    
+}
+.colorBg{
+    background-color: #ecb651;
+    height: 20px;
+    width: 20px;
+    border: black 1px solid;
+}
+.flash-msg{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 3px 70px;
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+}
